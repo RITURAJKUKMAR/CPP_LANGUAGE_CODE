@@ -17,7 +17,6 @@ void value()
 {
     int i,j,v;
     srand(time(NULL));
-
     for(i=0;i<16;i++)
     {
         r1:
@@ -69,10 +68,10 @@ void ans()
 }
 int main()
 {
-    cout<<"Created by MR.RITU-R"<<endl;
     int arr[4][4],l,i,j,v=0,b=0;
     system("cls");
     system("color f");
+    cout<<"Created by [MR.RITU-R]"<<endl;
     cout<<"\t   [NUMBER PUZZLE]\n\n";
     value();
     for(i=0;i<4;i++)
